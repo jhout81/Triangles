@@ -10,7 +10,7 @@ public class Triangles {
         char buildAnother = 'Y';
 
         //loop to give the user the option to build another triangle
-        while (buildAnother == 'Y' || buildAnother == 'y') {
+        while (buildAnother == 'Y') {
             //asks for size to read in to sizeRange
             System.out.print("Enter Size from 1 - 50: ");
             sizeRange = in.nextInt();
